@@ -1,0 +1,95 @@
+
+
+
+body{background: #2ad140;
+background: linear-gradient(90deg, rgba(42, 209, 64, 1) 54%, rgba(0, 0, 0, 1) 100%);
+    
+    }
+
+
+
+header{
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding-left: 30px;
+    position: sticky;
+    padding-right: 30px;
+
+
+}
+header a {
+    color:white;
+    text-decoration: none; 
+    font-size: 30px;
+    font-family: "Honk", system-ui;
+    
+}
+
+.Sobre{
+
+display: flex;
+text-align: center;
+
+}
+.Sobre p{
+padding-right: 200px;
+    padding-left: 200px;
+}
+.Projetos {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-right: 100px;
+    
+    display: flex;
+
+}
+
+.ImagemP{
+     border-radius: 50%;
+     height: 400px;
+     width: 400px;
+     margin-left: 100px;
+     margin-top: 100px;
+     margin-bottom: 50px;
+
+   
+}
+
+.Contatos {
+    height: 100px;
+    width: 100px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 400px;
+    margin-left: 800px;
+    justify-content: center;
+    display: flex;
+}
+
+.Foto {
+     border-radius: 50%;
+     height: 400px;
+     width: 600px;
+     margin: 100px;
+     margin-bottom: 50px;
+    margin-right: 15%;
+}
+
+
+
+p{
+margin-right: 30%;
+margin-top: 20%;
+}
+
+h1  {
+display: block;
+background-color: black;
+color: white;
+}
